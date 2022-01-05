@@ -55,6 +55,7 @@ services:
     depends_on:
       - db_greeting
       - broker
+#    TODO use build from Dockerfile instead
     image: bakaar/greetings-service
     ports:
       - "9080:8080"
@@ -72,6 +73,7 @@ services:
       - dbStat
       - broker
       - greetings
+    #    TODO use build from Dockerfile instead
     image: bakaar/greetings-stat-service
     ports:
       - "9081:8080"
