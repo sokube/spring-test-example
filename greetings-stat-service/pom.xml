@@ -34,9 +34,9 @@
         <jacoco.version>0.8.7</jacoco.version>
         <sonar.host.url>http://sonarcloud.io</sonar.host.url>
         <sonar.projectName>greetings-stat-service</sonar.projectName>
-        <sonar.projectKey>greetings-stat-service</sonar.projectKey>
+        <sonar.projectKey>sokube-greetings-stat-service</sonar.projectKey>
         <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
-        <sonar.organization>mckratt</sonar.organization>
+        <sonar.organization>sokube</sonar.organization>
         <sonar.coverage.exclusions>
             **/*Properties.java,
             **/*Configuration.java,

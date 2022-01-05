@@ -4,27 +4,27 @@
 
 == Builds
 
-image::https://github.com/McKratt/greetings/actions/workflows/build.yml/badge.svg[https://github.com/McKratt/greetings/actions]
+image::https://github.com/sokube/spring-test-example/actions/workflows/build.yml/badge.svg[https://github.com/sokube/spring-test-example/actions]
 
 === Greetings Service
 
-image::https://sonarcloud.io/api/project_badges/measure?project=greetings-service&metric=alert_status[https://sonarcloud.io/dashboard?id=greetings-service]
+image::https://sonarcloud.io/api/project_badges/measure?project=sokube-greetings-service&metric=alert_status[https://sonarcloud.io/dashboard?id=sokube-greetings-service]
 
-image::https://sonarcloud.io/api/project_badges/measure?project=greetings-service&metric=sqale_rating[https://sonarcloud.io/dashboard?id=greetings-service]
+image::https://sonarcloud.io/api/project_badges/measure?project=sokube-greetings-service&metric=sqale_rating[https://sonarcloud.io/dashboard?id=sokube-greetings-service]
 
-image::https://sonarcloud.io/api/project_badges/measure?project=greetings-service&metric=vulnerabilities[https://sonarcloud.io/dashboard?id=greetings-service]
+image::https://sonarcloud.io/api/project_badges/measure?project=sokube-greetings-service&metric=vulnerabilities[https://sonarcloud.io/dashboard?id=sokube-greetings-service]
 
-image::https://sonarcloud.io/api/project_badges/measure?project=greetings-service&metric=coverage[https://sonarcloud.io/dashboard?id=greetings-service]
+image::https://sonarcloud.io/api/project_badges/measure?project=sokube-greetings-service&metric=coverage[https://sonarcloud.io/dashboard?id=sokube-greetings-service]
 
 === Stat Service
 
-image::https://sonarcloud.io/api/project_badges/measure?project=greetings-stat-service&metric=alert_status[https://sonarcloud.io/dashboard?id=greetings-stat-service]
+image::https://sonarcloud.io/api/project_badges/measure?project=sokube-greetings-stat-service&metric=alert_status[https://sonarcloud.io/dashboard?id=sokube-greetings-stat-service]
 
-image::https://sonarcloud.io/api/project_badges/measure?project=greetings-stat-service&metric=sqale_rating[https://sonarcloud.io/dashboard?id=greetings-stat-service]
+image::https://sonarcloud.io/api/project_badges/measure?project=sokube-greetings-stat-service&metric=sqale_rating[https://sonarcloud.io/dashboard?id=sokube-greetings-stat-service]
 
-image::https://sonarcloud.io/api/project_badges/measure?project=greetings-stat-service&metric=vulnerabilities[https://sonarcloud.io/dashboard?id=greetings-stat-service]
+image::https://sonarcloud.io/api/project_badges/measure?project=sokube-greetings-stat-service&metric=vulnerabilities[https://sonarcloud.io/dashboard?id=sokube-greetings-stat-service]
 
-image::https://sonarcloud.io/api/project_badges/measure?project=greetings-stat-service&metric=coverage[https://sonarcloud.io/dashboard?id=greetings-stat-service]
+image::https://sonarcloud.io/api/project_badges/measure?project=sokube-greetings-stat-service&metric=coverage[https://sonarcloud.io/dashboard?id=sokube-greetings-stat-service]
 
 == Architecture overview
 
