@@ -28,6 +28,7 @@
         <junit-platform.version>1.8.2</junit-platform.version>
         <testcontainer.version>1.16.3</testcontainer.version>
         <pact.version>4.3.4</pact.version>
+        <springdoc.version>1.6.6</springdoc.version>
         <jacoco.version>0.8.7</jacoco.version>
         <sonar.host.url>http://sonarcloud.io</sonar.host.url>
         <sonar.projectName>greetings-service</sonar.projectName>
