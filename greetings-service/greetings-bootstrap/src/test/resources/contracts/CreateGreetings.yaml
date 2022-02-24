@@ -1,0 +1,14 @@
+request:
+  method: POST
+  urlPath: /rest/api/v1/greetings
+  headers:
+    Content-Type: application/json
+  body:
+    type: birthday
+    name: Max Planck
+response:
+  status: 201
+  matchers:
+    headers:
+      - key: Location
+        regex: "http://localhost/rest/api/v1/greetings/[a-f0-9]{8}(-[a-f0-9]{4}){4}[a-f0-9]{8}"
