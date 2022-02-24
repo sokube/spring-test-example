@@ -10,7 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>stat-client</artifactId>
     <properties>
-        <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}</sonar.coverage.jacoco.xmlReportPaths>
+        <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}
+        </sonar.coverage.jacoco.xmlReportPaths>
     </properties>
     <dependencies>
         <dependency>
@@ -23,10 +24,16 @@
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
         <dependency>
-            <groupId>au.com.dius.pact.consumer</groupId>
-            <artifactId>junit5</artifactId>
-            <version>${pact.version}</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
+            <version>${spring.cloud.contract.version}</version>
             <scope>test</scope>
         </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>io.sokube</groupId>-->
+        <!--            <artifactId>greetings-bootstrap</artifactId>-->
+        <!--            <version>1.0.0-SNAPSHOT</version>-->
+        <!--            <classifier>stubs</classifier>-->
+        <!--        </dependency>-->
     </dependencies>
 </project>

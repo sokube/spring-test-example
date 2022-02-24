@@ -16,6 +16,8 @@
     <logger name="org.apache.zookeeper" level="error"/>
     <logger name="kafka" level="error"/>
     <logger name="com.zaxxer" level="error"/>
+    <logger name="wiremock" level="error"/>
+    <logger name="io.netty" level="error"/>
 
 
     <root level="debug">
