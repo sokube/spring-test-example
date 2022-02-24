@@ -27,8 +27,8 @@
         <cucumber.version>7.2.3</cucumber.version>
         <junit-platform.version>1.8.2</junit-platform.version>
         <testcontainer.version>1.16.3</testcontainer.version>
-        <pact.version>4.3.4</pact.version>
         <jacoco.version>0.8.7</jacoco.version>
+        <spring-cloud-contract.version>3.1.0</spring-cloud-contract.version>
         <sonar.host.url>http://sonarcloud.io</sonar.host.url>
         <sonar.projectName>greetings-service</sonar.projectName>
         <sonar.projectKey>sokube-greetings-service</sonar.projectKey>
@@ -116,26 +116,6 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
     <profiles>
         <profile>
             <id>coverage</id>
