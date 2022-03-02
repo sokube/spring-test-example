@@ -19,7 +19,7 @@ import java.util.UUID;
 
 @WebFluxTest
 @ExtendWith({PactConsumerTestExt.class})
-@PactTestFor(providerName = "greetings-service",pactVersion = PactSpecVersion.V3)
+@PactTestFor(providerName = "greetings-service", pactVersion = PactSpecVersion.V3)
 @ContextConfiguration(classes = GreetingsStatRestClientConfiguration.class)
 class GreetingsPactConsumerIT {
 
