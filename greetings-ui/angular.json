@@ -81,14 +81,6 @@
           "options": {
             "browserTarget": "greetings-ui:build"
           }
-        },
-        "test": {
-          "builder": "@angular-builders/jest:run",
-          "options": {
-            "configPath" : "jest.config.js",
-            "tsConfig": "tsconfig.spec.json",
-            "reporters": []
-          }
         }
       }
     }

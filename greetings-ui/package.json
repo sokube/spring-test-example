@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "jest"
+    "test": "jest",
+    "pact": "jest --runInBand --testRegex \"/*(.pact.ts)\""
   },
   "private": true,
   "dependencies": {
@@ -23,10 +24,11 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-builders/jest": "^13.0.3",
+    "jest-pact": "^0.9.3",
     "@angular-devkit/build-angular": "~13.2.4",
     "@angular/cli": "~13.2.4",
     "@angular/compiler-cli": "~13.2.0",
+    "@pact-foundation/pact": "^9.17.3",
     "@types/jest": "^27.4.1",
     "@types/node": "^12.11.1",
     "jest": "^27.5.1",
