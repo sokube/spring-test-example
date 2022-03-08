@@ -1,0 +1,53 @@
+{
+  "consumer": {
+    "name": "greetings-ui"
+  },
+  "provider": {
+    "name": "greetings-service"
+  },
+  "interactions": [
+    {
+      "description": "A greeting creation request",
+      "request": {
+        "method": "POST",
+        "path": "/rest/api/v1/greetings",
+        "body": {
+          "name": "Max Planck",
+          "type": "Christmas"
+        },
+        "matchingRules": {
+          "$.body.name": {
+            "match": "type"
+          },
+          "$.body.type": {
+            "match": "regex",
+            "regex": "^Christmas$|^Anniversary$|^Birthday$"
+          }
+        }
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Location": "/rest/api/v1/greetings/0f85c795-ce76-4f6f-8d0a-dc78ab7e319a"
+        },
+        "body": {
+          "message": "Merry Christmas Max Planck !"
+        },
+        "matchingRules": {
+          "$.headers.Location": {
+            "match": "regex",
+            "regex": "\\/rest\\/api\\/v1\\/greetings\\/[a-z0-9]{8}(-[a-z0-9]{4}){3}-[a-z0-9]{12}"
+          },
+          "$.body.message": {
+            "match": "type"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  }
+}
