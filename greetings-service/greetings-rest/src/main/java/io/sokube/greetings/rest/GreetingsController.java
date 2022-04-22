@@ -26,6 +26,7 @@ public class GreetingsController {
     @PostMapping
 //            (produces = {APPLICATION_JSON_VALUE}, consumes = {APPLICATION_JSON_VALUE})
     @ResponseStatus(HttpStatus.CREATED)
+    @CrossOrigin(exposedHeaders = "Location")
     public ResponseEntity<GreetingMessage> createGreeting(@RequestBody CreateGreetingCommand command) {
         Greeting createdGreeting = applicationService.createGreeting(command);
         return ResponseEntity
