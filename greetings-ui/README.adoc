@@ -1,0 +1,15 @@
+= GreetingsUI
+:toc:
+
+== Conception
+
+Naive first ideas for UI
+
+* 2 main modules
+** Message
+** Stats
+* Message Type component (drop down list) should receive types from backend.
+* Stats module is lazy loaded.
+* There is a "button" (it could be an actual button or a checkbox) on Message window to open the stat component.
+* In the Stat module there is a service which has a connection with an SSE endpoint on Stat-Service which can send it stat modifications events.
+* Stats component doesn't receive new stats numbers from the SSE event and must use the "normal" endpoint to retrieve actual data.
